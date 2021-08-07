@@ -20,8 +20,6 @@ header .container {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 30px;
 }
-.header-left {
-}
 .header-left h1 {
   width: 485px;
   height: 230px;
@@ -38,7 +36,6 @@ header .container {
   margin-left: 156px;
   padding: 10px 48px 10px 24px;
 }
-
 .header-right {
   margin: 153px 263px 86px 102px;
   background: #3dbafd;
@@ -54,7 +51,6 @@ header .container {
   width: 18px;
   height: 25px;
 }
-
 .header-right:hover #football-img {
   transform: scale(1.5);
   transition: transform 1.5s;
@@ -71,7 +67,6 @@ main .container {
 .top-footballers {
   margin-bottom: 30px;
 }
-
 .footballers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -88,7 +83,6 @@ main .container {
   align-items: center;
   padding: 15px;
 }
-
 .footballer img {
   width: 300px;
   height: 240px;
@@ -107,13 +101,10 @@ main .container {
   font-size: 16px;
   line-height: 26px;
 }
-
 /* goolkeepers start */
 .Best-Goolkeeper {
   margin-top: 130px;
   text-align: center;
-}
-.goolkeepers {
 }
 .goolkeeper {
   display: flex;
@@ -136,7 +127,6 @@ main .container {
   font-weight: 700;
   font-size: 28px;
 }
-
 .goolkeepers {
   display: inline-block;
   justify-content: center;
@@ -150,7 +140,6 @@ main .container {
   grid-row-gap: 27px;
   grid-column-gap: 30px;
 }
-
 .goolkeeper {
   background: #fff;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
@@ -158,7 +147,6 @@ main .container {
   padding: 15px;
   width: 1020px;
 }
-
 .goolkeeper h3 {
   color: #18191f;
   margin-bottom: 12px;
@@ -173,7 +161,6 @@ main .container {
   font-size: 16px;
   line-height: 26px;
 }
-
 /* download start */
 .download {
   display: flex;
@@ -201,7 +188,6 @@ main .container {
 .download-left a img {
   color: white;
 }
-
 #app {
   position: absolute;
   color: white;
@@ -209,7 +195,6 @@ main .container {
   width: 25px;
   height: 25px;
 }
-
 .download-right {
   padding: 40px 0;
 }
@@ -232,17 +217,8 @@ footer {
   height: 213px;
   position: relative;
 }
-
-.football {
-}
-.football img {
-}
-.football h3 {
-}
 .logo {
   width: 100%;
-}
-.icons {
 }
 #icon {
   width: 32px;
@@ -250,9 +226,6 @@ footer {
   margin-bottom: 20px;
   padding-left: 7px;
   padding-right: 7px;
-}
-
-.copyright {
 }
 .copyright h5 {
   font-weight: 400;
